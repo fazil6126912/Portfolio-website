@@ -110,7 +110,7 @@ const ProjectDetails = () => {
         ...selectedProject,
         Features: selectedProject.Features || [],
         TechStack: selectedProject.TechStack || [],
-        Github: selectedProject.Github || 'https://github.com/fazil6126912/',
+        Github: selectedProject.Github,
       };
       setProject(enhancedProject);
     }
